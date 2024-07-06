@@ -15,7 +15,7 @@ export default function JobBar(){
             <nav className="joblinks">
                 <Link href='/jobposts' className={clsx({'boldText' : pathname == '/jobposts'})}>All Jobs</Link>
                 <Link href='/jobposts/open' className={clsx({'boldText' : pathname == '/jobposts/open'})}>Open Jobs</Link>
-                <Link href='/jobposts/closed' className={clsx({'boldText' : pathname == '/jobposts/saved'})}>Closed Jobs</Link>
+                <Link href='/jobposts/closed' className={clsx({'boldText' : pathname == '/jobposts/closed'})}>Closed Jobs</Link>
                 <Link href='/jobposts/invites' className={clsx({'boldText' : pathname == '/jobposts/invites'})}>Sent Invites</Link>
            </nav>
             <SearchField/>
